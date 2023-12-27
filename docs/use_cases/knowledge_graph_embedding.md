@@ -10,9 +10,9 @@ Let's get started.
 
 ## Knowledge Graphs and missing edges
 
-We use Knowledge Graphs (KGs) to describe how different entities, like people, places, or more generally "things," relate to each other. For example, a KG can show us how a writer is linked to their books or how a book is connected to its awards:
+We use Knowledge Graphs (KGs) to describe how different entities, like people, places, or more generally "things," relate to each other. For example, a KG can show us how a writer is linked to their books, or how a book is connected to its awards:
 
-![Knowledge Graph example](../assets/use_cases/knowledge_graph_embedding/small_kg.png)
+![Knowledge Graph example](../assets/use_cases/knowledge_graph_embedding/small_kg.png){:target="_blank"}
 
 In domains where understanding these specific connections is crucial - like recommendation systems, search engines, or information retrieval - KGs specialize in helping computers grasp the detailed relationships between things.
 
