@@ -26,7 +26,7 @@ Fortunately, KGEs can help solve problems that plague KGs.
 
 ## Knowledge Graph Embeddings and how they work
 
-Trained KGE algorithms can generalize and predict missing edges by calculating the likelihood of connections between entities. 
+Trained Knowledge Graph Embeddings (KGE) algorithms can generalize and predict missing edges by calculating the likelihood of connections between entities. 
 
 KGE algorithms do this by taking tangled complex webs of connections between entities and turning them into something AI systems can understand: **vectors**. Embedding entities in a vector space allows KGE algorithms to define a **loss function** that measures the discrepancy between embedding similarity and node similarity in the graph. _If the loss is minimal, similar nodes in the graph have similar embeddings_.
 
