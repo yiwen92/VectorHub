@@ -24,6 +24,8 @@ Most RAG systems employ vector search on a document collection to surface releva
 3. **Query Encoding**: An incoming user query is encoded as a vector representation, using the same embedding model.
 4. **Similarity Retrieval**: Using distance metrics like cosine similarity, the system runs a search over the indexed passages to find closest neighbors to the query vector.
 5. **Passage Return**: The system returns the most similar passage vectors, and extracts the corresponding original text to provide context for the LLM.
+
+![RAG Arcitecture](../assets/use_cases/knowledge_graphs/RAG.png)
   
 This RAG Vector Search pipeline has **several key limitations**:
 
@@ -50,6 +52,8 @@ How do KGs augment retrieval?
 7. **Personalization** — KGs capture and tailor query results according to user attributes, context, and historical interactions.
 
 In sum, whereas RAG performs matching on disconnected nodes, KGs enable graph traversal search and retrieval of interconnected contextual, search for query-relevant facts, make the ranking process transparent, and encode structured facts, relationships, and context to enable complex, precise, multi-step reasoning. As a result, compared to pure vector search, KGs can improve relevance and explanatory power.
+
+![RAG with Knowledge Graphs](../assets/use_cases/knowledge_graphs/rag_kg.png)
 
 But KG retrieval can be optimized further by applying certain constraints.
 
